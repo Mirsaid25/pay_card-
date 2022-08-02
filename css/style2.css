@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+.contener2{
+    margin-left:166px ;
+}
+
+header{
+    padding: 25px 265px;
+    height: 70px;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_left{
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    gap: 21px;
+    
+}
+
+.header_left a{
+    text-decoration: none;
+    color: black;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.block1{
+    padding: 44px 0 0 0;
+    gap: 11px;
+    margin-bottom: 74px;
+}
+
+.block1 h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+
+.email_adres_bule{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0047FF;
+}
+
+.block2{
+    margin-bottom: 74px;
+}
+
+.block2 p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;   
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-right: 262px;
+    margin-bottom: 21px;
+    grid-gap: 24px;
+}
+
+.card{
+    width: 282px;
+    height: 160px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 19px 0 17px 23px;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.card:nth-child(1){
+    background: linear-gradient(84.37deg, #D7816A 2.27%, #BD4F6C 92.26%);
+}
+.card:nth-child(2){
+    background: linear-gradient(84.37deg, #5F0A87 2.27%, #A4508B 92.26%);
+}
+.card:nth-child(3){
+    background: linear-gradient(84.37deg, #20BF55 2.27%, #01BAEF 92.26%);
+}
+.card:nth-child(4){
+    background: linear-gradient(84.37deg, #380036 2.27%, #0CBABA 92.26%);}
+
+.block2 a, .block3 a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #0047FF;
+}
+
+.block3{
+    width: 1200px;
+    margin-bottom: 100px;
+}
+
+.block3 p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.block3 table{
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.block3 table thead tr td{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B9C0D1;
+    padding: 10px 0;
+}
+
+.block3 table tbody tr td{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 10px 0;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+.contener{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 35px;
+}
+
+.contener h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    text-align: center;
+}
+
+.contener form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px    ;
+}
+.contener form input{
+    width: 438px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 19px 0 17px 27px;
+}
+
+.contener form button{
+    width: 438px;
+    height: 56px;
+    left: 645px;
+    top: 680px;
+    background: #0047FF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none; 
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+.contener form button:hover{
+    background: #2764ff;
+}
+
+.contener h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0047FF;
+    cursor: pointer;
+    transition: 200ms ease;
+}
+
+.contener h4:hover{
+    color: #4177ff;
+}

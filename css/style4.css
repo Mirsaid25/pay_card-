@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+.contener2{
+    margin-left:166px ;
+}
+
+header{
+    padding: 25px 265px;
+    height: 70px;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_left{
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    gap: 21px;
+    
+}
+
+.header_left a{
+    text-decoration: none;
+    color: black;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.block3 a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #0047FF;
+}
+
+.block3{
+    width: 1200px;
+    margin-bottom: 100px;
+}
+
+.block3 p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.block3 table{
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.block3 table thead tr td{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B9C0D1;
+    padding: 10px 0;
+}
+
+.block3 table tbody tr td{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.email_adres_bule{
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0047FF;
+    margin-bottom: 60px;
+}
+
+.block_top{
+    margin: 25px 105px 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block_top button{
+    width: 200px;
+    height: 36px;
+    background: #0047FF;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* -------------============-----------=========-----------====== */
+
+.modal_bg{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+ }
+ 
+ .modal{
+    display: none;
+    position: fixed;
+    width: 550px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ .modal h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-bottom: 32px;
+ }
+ 
+ .modal form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+ }
+ 
+ .modal form input{
+    width: 438px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+ }
+ 
+ .modal form button{
+    background: #0047FF;
+    border-radius: 10px;
+    width: 438px;
+    height: 56px;
+    border: none;
+    color: white;
+    font-size: 20px;
+ }
+
+ .modal select{
+    width: 438px;
+    height: 46px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 0 10px;
+ }

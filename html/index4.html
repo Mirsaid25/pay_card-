@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style4.css">
+</head>
+<body>
+    <header>
+        <div class="header_left">
+            <a class="w1" href="#">Главная</a>
+            <a class="locations_cards" href="#">Мои кошельки</a>
+            <a class="tranzit" href="#">Мои транзакции</a>
+        </div>
+        <div class="header_right">
+            <span class="email_adres">alexadams@google.com</span>
+            <img class="exit" src="../img/exit.svg" alt="">
+        </div>
+    </header>
+    <div class="contener2">
+        <div class="block3">
+            <div class="block_top">
+                <h2>Мои транзакции</h2>
+                <button class="add_tranzaction">Добавить</button>
+            </div>
+            <span class="email_adres_bule">alexadams@google.com</span>
+            <table>
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Отправлено с кошелька</td>
+                        <td>Категория</td>
+                        <td>Сумма транзации</td>
+                        <td>Когда</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1232312</td>
+                        <td>VISA</td>
+                        <td>Автомобиль</td>
+                        <td>414,000,000</td>
+                        <td>4 дня назад</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal_bg"></div>
+        <div class="modal">
+           <h1>Добавить транзакцию</h1>
+           <form name="tranzit">
+            <select name="currency" id="">
+                <option value="UZCARD">UZCARD</option>
+                <option value="HUMO">HUMO</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="VISA">VISA</option>
+            </select>
+              <input type="text" placeholder="coteg" name="company">
+              <input type="number" placeholder="total" name="total">
+              <input type="text" placeholder="time" name="company">
+              <button>Добавить</button>
+           </form>
+        </div>
+
+    <script type="module" src="../js/script4.js"></script>
+</body>
+</html>

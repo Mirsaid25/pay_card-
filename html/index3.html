@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style3.css">
+</head>
+<body>
+        <header>
+            <div class="header_left">
+                <a class="w1" href="#">Главная</a>
+                <a class="locations_cards" href="#">Мои кошельки</a>
+                <a class="tranzit" href="#">Мои транзакции</a>
+            </div>
+            <div class="header_right">
+                <span class="email_adres">alexadams@google.com</span>
+                <img class="exit" src="../img/exit.svg" alt="">
+            </div>
+        </header>
+        <div class="contener2">
+            <div class="block2">
+                <h1>Мои кошельки</h1>
+                <span class="email_adres_bule">alexadams@google.com</span>
+                <div class="cards">
+                    <div class="card">
+                        <span class="company">Visa</span>
+                        <span class="total">212000</span>
+                        <span class="currency">RUB</span>
+                    </div>
+                    <div class="card">
+                        <span>Visa</span>
+                        <span>212000</span>
+                        <span>RUB</span>
+                    </div>
+                    <div class="card">
+                        <span>Visa</span>
+                        <span>212000</span>
+                        <span>RUB</span>
+                    </div>
+                </div>
+                <button class="add_card">Добавить</button>
+            </div>
+        </div>
+
+
+        <div class="modal_bg"></div>
+        <div class="modal">
+           <h1>Добавить кошелек</h1>
+           <form name="card">
+              <input type="text" placeholder="company" name="company">
+              <input type="text" placeholder="currency" name="currency">
+              <input type="number" placeholder="total" name="total">
+              <button>Добавить</button>
+           </form>
+        </div>
+
+        <script  type="module" src="../js/script3.js"></script>
+</body>
